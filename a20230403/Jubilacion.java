@@ -3,6 +3,7 @@
 hombres), la computadora indica si está en edad de jubilarse.
  */
 package a20230403;
+
 import java.util.Scanner;
 public class Jubilacion {
     public static void main(String[] args) {
@@ -29,6 +30,8 @@ public class Jubilacion {
             }else{
                 System.out.println("Usted no puede jubilarse");
             }
+        } else {
+            System.out.println("El genero ingresado no corresponde");
         }
     }
 }
